@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Patient Data Sheet</h1>
+    <fieldset><legend>Patient Information</legend>
+        <form action="" method="post">
+            <!-- each field below should have a input element and a label -->
+            <!-- first name -->
+            <label for="first-name">First Name: </label>
+            <input type="text" name="first-name" id="first-name" required><br><br>
+            <!-- last name -->
+            <label for="last-name">Last Name: </label>
+            <input type="text" name="last-name" id="last-name" required><br><br>
+            <!-- Date of Birth -->
+            <label for="DOB">Date of Birth: </label>
+            <input type="date" id="DOB" name="DOB" required><br><br>
+            <!-- Gender -->
+            <label for="gender">Gender: </label>
+            <select name="gender" id="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="non-binary">Non-Binary</option>
+                <option value="prefer-not-say">Prefer Not to Say</option>
+            </select><br><br>
+            <!-- Address -->
+            <label class="address" for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+            <br><br>
+            <!-- phone number -->
+            <label for="phone-number">Phone Number:</label>
+            <input type="tel" name="phone-number" id="phone-number" required><br><br>
+            <!-- email  -->
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <!-- Insurance -->
+            <label for="insurance">Insurance: </label>
+            <input type="text" id="insurance" name="inusrance" required>
+            <br><br>
+            <!-- medical history -->
+            <label for="medical-history">Medical History: </label>
+            <textarea id="medical-history" placeholder="Medical Diagnosis, Allergies, etc." required></textarea> <br><br>
+            <!-- Submit Button -->
+            <input type="submit" value="Finish">
+        </form>
+    </fieldset>
+
+</html>
