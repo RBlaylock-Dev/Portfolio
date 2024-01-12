@@ -25,3 +25,8 @@ select {
     text-align: center;
     background-color: antiquewhite;
 }
+
+input[type="submit"]{
+    background-color: black;
+    color: white;
+}
