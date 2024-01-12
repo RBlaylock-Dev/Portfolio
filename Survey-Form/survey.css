@@ -2,7 +2,8 @@ body {
     text-align: center;
     margin: auto;
     background: lightgrey;
-   
+    color: yellow;
+   background-image: url(Images/clipboard.jpg);
 }
 
 
